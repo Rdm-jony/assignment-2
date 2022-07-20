@@ -208,7 +208,7 @@ scetion blogs style
     border-radius: .3125rem;
     position: absolute;
     bottom: 0;
-    left: 50%;
+    left: 45%;
     display: none;
 }
 
@@ -322,10 +322,7 @@ upcoming match style
 mobile-device 
 --------------*/
 @media only screen and (max-width:576px) {
-    * {
-        font-size: 6px;
 
-    }
 
     .header-container {
         flex-direction: column;
@@ -355,11 +352,31 @@ mobile-device
     .matches,
     .blogs {
         grid-template-columns: 1fr;
+
     }
+
+    .match-flag {
+        justify-content: space-between;
+    }
+
+    .match-flag p {
+        font-size: 3em;
+    }
+
+    .blog-img,
+    .blog-info {
+        height: 50%;
+    }
+
+    .blog-img img {
+        height: 100%;
+    }
+
 
     .blog-info {
         width: 80%;
-        flex-wrap: wrap;
+        height: 100%;
+
     }
 
     .social-icon {
@@ -367,16 +384,24 @@ mobile-device
     }
 
     .header-container {
-        width: 100%;
-        margin: 8.125rem auto;
+        width: 80%;
+        margin: 8.125rem 0;
     }
 
     .blogs {
+        width: 80%;
         margin: 0 auto;
     }
 
-    .social-icon {
-        width: 100%;
+    .social-icons {
+        width: 40%;
+
+    }
+
+    .footer-list {
+        flex-direction: column;
+        row-gap: 10px;
+        text-align: center;
     }
 
 }
@@ -385,9 +410,7 @@ mobile-device
 tablet device
 ---------------- */
 @media only screen and (min-width:577px) and (max-width:968px) {
-    * {
-        font-size: 10px;
-    }
+
 
     .blog-container {
         grid-template-columns: 1fr;
@@ -413,12 +436,16 @@ tablet device
 
     .view-all-btn {
         display: block;
-        bottom: -3%;
+        bottom: -8%;
     }
 
     .footer-list {
         flex-wrap: wrap;
         width: 40%;
+    }
+
+    .match-flag {
+        justify-content: space-between;
     }
 
 
