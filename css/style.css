@@ -28,8 +28,8 @@ body {
     align-items: center;
     background-color: black;
     color: white;
-    width: 90vw;
-    height: 100vh;
+    max-width: 90vw;
+    max-height: 100vh;
     margin: 0 auto;
 
 }
@@ -146,7 +146,7 @@ scetion blogs style
     display: grid;
     grid-template-columns: 368px 2fr;
     column-gap: 1.25rem;
-    width: 90%;
+    max-width: 90vw;
     margin: 8.125rem auto;
     position: relative;
 }
@@ -335,6 +335,10 @@ mobile-device
         font-size: 30px;
     }
 
+    .header-container p {
+        font-size: 8px;
+    }
+
 
     .right-side {
         align-self: center;
@@ -415,23 +419,26 @@ tablet device
 ---------------- */
 @media only screen and (min-width:577px) and (max-width:968px) {
     .header-container h1 {
-        font-size: 40px;
+        font-size: 30px;
     }
 
     .blog-container {
+
         grid-template-columns: 1fr;
 
     }
 
     .blog-buttons {
-        width: 100%;
+        width: 90vw;
         height: 10%;
         background-color: white;
         flex-direction: row;
         justify-content: space-between;
+        column-gap: 30px;
     }
 
     .blog-buttons a {
+        width: 25vw;
         border: 1px solid gray;
     }
 
