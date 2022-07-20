@@ -367,11 +367,11 @@ mobile-device
     }
 
     .header-container {
-        width: 90%;
+        width: 100%;
         margin: 8.125rem auto;
     }
 
-    .blog {
+    .blogs {
         margin: 0 auto;
     }
 
