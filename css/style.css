@@ -367,13 +367,12 @@ mobile-device
     }
 
     .header-container {
-        min-width: 90%;
-        margin: 0 auto;
+        width: 90%;
+        margin: 8.125rem auto;
     }
 
-    .blog-container {
-        min-width: 90%;
-        margin: 8.125rem auto;
+    .blog {
+        margin: 0 auto;
     }
 
     .social-icon {
