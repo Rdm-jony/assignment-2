@@ -323,6 +323,11 @@ mobile-device
 --------------*/
 @media only screen and (max-width:576px) {
 
+    * {
+        font-size: 8px;
+
+    }
+
 
     .header-container {
         width: 90vw;
