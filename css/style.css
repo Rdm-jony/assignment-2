@@ -216,8 +216,8 @@ scetion blogs style
 footer style  
 --------------*/
 .footer-container {
-    width: 100%;
-    /* height: 40vh; */
+    width: 100vw;
+    height: 30vh;
     background-color: black;
     color: white;
     display: flex;
@@ -232,7 +232,7 @@ footer style
 }
 
 .footer-list {
-    width: 60%;
+    width: 60vw;
     display: flex;
     justify-content: space-evenly;
 }
@@ -402,6 +402,10 @@ mobile-device
         text-align: center;
     }
 
+    .footer-container {
+        height: 50vh;
+    }
+
 }
 
 /* -------------
@@ -439,7 +443,7 @@ tablet device
 
     .view-all-btn {
         display: block;
-        bottom: -8%;
+        bottom: -3%;
     }
 
     .footer-list {
@@ -449,6 +453,10 @@ tablet device
 
     .match-flag {
         justify-content: space-between;
+    }
+
+    .footer-container {
+        height: 30vh;
     }
 
 
