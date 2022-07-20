@@ -325,9 +325,14 @@ mobile-device
 
 
     .header-container {
+        width: 90vw;
         flex-direction: column;
         row-gap: 20px;
         text-align: center;
+    }
+
+    .header-container h1 {
+        font-size: 30px;
     }
 
 
@@ -383,14 +388,13 @@ mobile-device
         width: 0 auto;
     }
 
-    .header-container {
-        width: 80%;
-        margin: 8.125rem 0;
+    .blogs {
+        width: 90vw;
+
     }
 
-    .blogs {
-        width: 80%;
-        margin: 0 auto;
+    .blog-buttons {
+        width: 90vw;
     }
 
     .social-icons {
