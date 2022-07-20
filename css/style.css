@@ -36,7 +36,7 @@ body {
 
 .left-side,
 .right-side {
-    height: 90vh;
+    width: 40vw;
 }
 
 .left-side {
